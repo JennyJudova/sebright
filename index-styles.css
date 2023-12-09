@@ -1,0 +1,156 @@
+/* 
+default grey jj - #E8E8E8
+
+TikTok Pink - #ff0050
+
+TikTok Aqua - #00f2ea
+
+TikTok Black - #000000 */
+
+/* instagram blue - #0095F6 */
+/* instagram grey - #737373 */
+/* insta black - black */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.square-image {
+  width: 100%;
+  max-height: 640px;
+  object-fit: cover;
+}
+
+.comment-section {
+  text-align: left;
+  margin: 0px 20px;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+}
+
+.comment-item .user {
+  font-weight: bold;
+}
+
+.user-link {
+  text-decoration: none;
+  color: black;
+}
+
+.comment-item .comment-text {
+  margin-left: 3px;
+}
+
+.portfolio {
+  padding-bottom: 20px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.main-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.dots-heart {
+  margin: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.like-button {
+  width: 30px;
+  height: 30px;
+}
+
+.dots {
+  display: flex;
+  padding-left: 40%;
+}
+
+.dot {
+  background-color: #737373;
+  width: 10px;
+  height: 10px;
+  margin: 0px 2px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.dot-blue {
+  background-color: #0095F6;
+  width: 10px;
+  height: 10px;
+  margin: 0px 3px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: #f1f1f1;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.4;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  opacity: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
